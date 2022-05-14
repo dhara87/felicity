@@ -1,0 +1,59 @@
+	 <!--  footer -->
+	 <footer id="contact">
+		<div class="footer">
+		   <div class="container">
+			  <div class="row">
+				 <div class="col-md-6">
+					<div class="titlepage">
+					   <h2>{{ .Site.Params.footer_title | markdownify }}</h2>
+					</div>
+					<div class="cont">
+					   <h3>{{ .Site.Params.footer_heading | markdownify }} </h3>
+					   <p>{{ .Site.Params.footer_content | markdownify }}</p>
+					</div>
+				 </div>
+				 <div class="col-md-6">
+					<form id="request" class="main_form">
+					   <div class="row">
+						  <div class="col-md-12 ">
+							 <input class="contactus" placeholder="Full Name" type="type" name="Full Name"> 
+						  </div>
+						  <div class="col-md-12">
+							 <input class="contactus" placeholder="Email" type="type" name="Email"> 
+						  </div>
+						  <div class="col-md-12">
+							 <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+						  </div>
+						  <div class="col-md-12">
+							 <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message </textarea>
+						  </div>
+						  <div class="col-sm-12">
+							 <button class="send_btn">Send</button>
+						  </div>
+					   </div>
+					</form>
+				 </div>
+			  </div>
+		   </div>
+		   <div class="copyright">
+			  <div class="container">
+				 <div class="row">
+					<div class="col-md-12">
+					   <p>{{ .Site.Params.copyright | markdownify }}</a></p>
+					</div>
+				 </div>
+			  </div>
+		   </div>
+		</div>
+	 </footer>
+	 <!-- end footer -->
+  
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+
+	
+
+	

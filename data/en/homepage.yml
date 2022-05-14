@@ -1,0 +1,77 @@
+############################ Banner Section ##########################
+banner_section:
+  enable : true
+  bg_image_url : "/images/banner.jpg"
+  header : "WELCOME TO HOTEL FELICITY <br> LANDING PAGE 2019"
+  title : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,<br> or randomised words which don't look even slightly believable"  
+  # banner buttons
+  buttons:
+    # button loop
+    - label : "Read More"
+      link : "#"
+
+    ############################ Services ##########################
+# services_section:
+  # enable : true
+  # services_items:
+  #   ################# products item loop
+  #   - name : "Choose The Perfect <br> Accommodation"
+  #     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi <br>ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br>reprehenderit in voluptate velit "
+  #     bg_image_url1: "/image/img1.jpg"
+  #     bg_image_url2: "/image/img2.jpg"
+  #     bg_image_url3: "/image/img3.jpg"
+  # # banner buttons
+  # buttons:
+  #   # button loop
+  #   - label : "See More"
+  #     link : "#"  
+
+  #   ################# products item loop
+  #   - name : "Our Best <br>Breakfast"
+  #     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi <br>ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br>reprehenderit in voluptate velit "
+  #     bg_image_url1: "/image/img4.jpg"
+  #   buttons:
+  #   # button loop
+  #   - label : "Read More"
+  #     link : "#"  
+
+
+############################ About Us ##########################
+about_section:
+  enable : true
+  bg_image_url: "/images/tes_bg.jpg"
+  image_url : "/images/about_img.jpg"
+  title : "About Our Hotel"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit "
+  link : "aboutus"
+       
+############################ Testimonial ##########################
+testimonial_section:
+  enable : true
+  title : "Testimonial"
+  # image_url: "/images/te1.png"
+  testimonial_loop:
+
+ ################# testimonial loop
+    - name : "Mark jonson"
+      description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,"
+
+ ################# testimonial loop
+    - name : "Mac Du"
+      description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,"
+
+ ################# testimonial loop
+    - name : "Mark jonson"
+      description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,"
+
+ ################# testimonial loop
+    - name : "Mac Du"
+      description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,"
+
+ ################# testimonial loop
+    - name : "Mark jonson"
+      description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,"
+
+ ################# testimonial loop
+    - name : "Mac Du"
+      description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,"
